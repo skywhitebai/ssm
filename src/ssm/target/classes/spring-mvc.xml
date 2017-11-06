@@ -35,7 +35,7 @@
 
 
 	<!-- 配置静态资源，直接映射到对应的文件夹，DispatcherServlet 不处理 -->
-	<mvc:resources mapping="/static/**" location="/WEB-INF/static/" />
+	<mvc:resources mapping="/static/**" location="/static/" />
 
 	<!-- 添加注解驱动 -->
 	<mvc:annotation-driven enable-matrix-variables="true" />
